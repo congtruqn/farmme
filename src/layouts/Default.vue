@@ -16,7 +16,6 @@
 <script>
 import AdminHeader from '@/components/partials/AdminHeader'
 import AdminMenu from '@/components/partials/AdminMenu'
-
   export default {
     name: 'defaultLayout',
     components: {
