@@ -6,10 +6,14 @@ import App from './App'
 import router from './router'
 import Axios from 'axios'
 
-import './assets/css/style.min.css';
-import './assets/css/form.css';
+import './assets/css/style.css';
+import './assets/css/default.css';
+import './assets/css/animate.css';
 import './assets/css/bootstrap.min.css';
-import './assets/css/font-awesome.min.css';
+import './assets/css/slick.css';
+import './assets/css/magnific-popup.css';
+import './assets/css/bootstrap.min.css';
+
 var Paginate = require('vuejs-paginate')
 Vue.component('paginate', Paginate)
 import VueConfirmDialog from 'vue-confirm-dialog'
