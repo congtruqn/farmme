@@ -7,12 +7,16 @@ import router from './router'
 import Axios from 'axios'
 
 import './assets/css/style.css';
-import './assets/css/default.css';
-import './assets/css/animate.css';
+import './assets/css/aos.css';
+import './assets/css/bootstrap-icons.css';
 import './assets/css/bootstrap.min.css';
-import './assets/css/slick.css';
-import './assets/css/magnific-popup.css';
-import './assets/css/bootstrap.min.css';
+import './assets/css/glightbox.min.css';
+
+import './assets/js/bootstrap.bundle.min.js';
+import './assets/js/glightbox.min.js';
+import './assets/js/validate.js';
+import './assets/js/main.js';
+
 
 var Paginate = require('vuejs-paginate')
 Vue.component('paginate', Paginate)
