@@ -9,15 +9,7 @@
             <div class="product-screens">
 
             <div class="product-screen-1" data-aos="fade-up" data-aos-delay="400">
-                <img src="@/assets/images/product-screen-1.png" alt="">
-            </div>
-
-            <div class="product-screen-2" data-aos="fade-up" data-aos-delay="200">
-                <img src="@/assets/images/product-screen-2.png" alt="">
-            </div>
-
-            <div class="product-screen-3" data-aos="fade-up">
-                <img src="@/assets/images/product-screen-3.png" alt="">
+                <img src="@/assets/images/farm-02.png" alt="">
             </div>
             </div>
         </div>

@@ -17,11 +17,7 @@ import './assets/js/glightbox.min.js';
 import './assets/js/validate.js';
 import './assets/js/main.js';
 
-
-var Paginate = require('vuejs-paginate')
-Vue.component('paginate', Paginate)
 import VueConfirmDialog from 'vue-confirm-dialog'
-import store from '@/store';
 Vue.use(VueConfirmDialog)
 Vue.component('vue-confirm-dialog', VueConfirmDialog.default)
 Axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
@@ -29,7 +25,6 @@ Vue.config.productionTip = false
 Vue.prototype.$http = Axios
 new Vue({
   el: '#app',
-  store,
   router,
   components: { App },
   template: '<App/>'
